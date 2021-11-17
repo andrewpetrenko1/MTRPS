@@ -12,7 +12,7 @@ import (
 func getFileLines(fileName string) []string {
   file, err := os.Open(fileName)
   if err != nil {
-    fmt.Printf("Can't open file %s", fileName)
+    panic(err)
   }
   defer file.Close()
 
