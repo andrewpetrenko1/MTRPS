@@ -1,6 +1,0 @@
-first,second,third
-b,c,a
-a,c,b
-z,f,t
-a,b,c
-g,w,s
